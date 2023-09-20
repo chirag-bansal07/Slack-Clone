@@ -67,8 +67,8 @@ button {
   display: none; }
 
 .home-hero {
+  top: 7rem;
   padding-bottom: 3rem;
-  margin-top: 45px;
   display: block;
   background-color: #4a154b;
   color: #fff;
@@ -207,6 +207,88 @@ button {
         margin-top: 50px;
       }
     }
+.about{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top:2.5rem ;
+  background: #f4ede4;
+  width: 150%;
+}
+.about__companies{
+  background: #f4ede4;
+  width: 67%;
+  align-items: center;
+  top: 55rem;
+  padding-top: 10px;
+  position: absolute;
+}
+.about__para{
+  width: 100% ;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-size: 2rem;
+}
+.about__companies-images{
+  margin-right: 5rem;
+  padding-right: 16rem;
+  padding-left: 16rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f4ede4;
+  top: 64rem;
+  padding-top: 2rem;
+  position: absolute;
+}
+
+.about__sec {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 1rem 0;
+}
+
+.about__sec-video {
+  flex: 1;
+  margin-right: 1rem;
+  margin-left: 8rem;
+}
+
+
+.about__sec-text {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  flex: 2; 
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.sec__a {
+  color: #0062b9;
+  display: block; 
+  margin-top: 1rem; 
+}
+.about__h2{
+  margin-bottom: 3rem;
+
+}
+
+
+
+
+
+
   
 /*                      */
 .header {
