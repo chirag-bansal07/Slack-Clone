@@ -28,6 +28,7 @@
               alt=" Logo Image"
               class="header__logo-img"
             />
+        </div>
         
         <div class="header__main">
           <div class="header__links">
@@ -52,7 +53,7 @@
           <div class="header__signin">
             <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
             <a class="header__link">SignIn</a>
-            <button class="header__signin-button">Talk To Sales</button>
+            <button class="header__signin-button talk-button">Talk To Sales</button>
             <button class="header__signin-button white ">Try For Free</button>
           </div>
           <div class="header__main-ham-menu-cont">
@@ -90,7 +91,7 @@
         </div>
       </div>
     </header>
-    <section class="home-hero">
+    <div class="home-hero">
       <div class="home-hero__content">
         <h1 class="heading-primary">Made for people.</h1>
         <h1 class="heading-primary yellow">Built for productivity.</h1>
@@ -103,6 +104,7 @@
           <button class="signin-button GOOGLE">
             <img src="./images/alphabet--600.png" alt="google" class="google-ing">
             <p>SIGN UP WITH GOOGLE</p></button>
+          <button class=" signin-button android__button ">GET SLACK FOR ANDROID</button>
         </div>
         <p class="home-hero__para free-massage">Slack is free to try for as long as you like</p>
       </div>
@@ -116,24 +118,29 @@
         type="video/webm"><source src="https://a.slack-edge.com/ec3a92a/marketing/img/homepage/true-prospects/animations/mp4/ia4-hero-product-ui.IN.mp4" 
           type="video/mp4"></video>
       </div>
-    </section>
+    </div>
     <div class="about">
       <div class="about__companies">
         <p class="about__para">TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
         <div class="about__companies-images">
-          <img src="./images/company/deliveroo.png" alt="deliveroo">
-          <img src="./images/company/logo-ibm.png" alt="IBM">
-          <img src="./images/company/logo-seek.png" alt="seek">
-          <img src="./images/company/logo-xero.png" alt="Xero">
-          <img src="./images/company/rea.png" alt="rea">
-          <img src="./images/company/rmit.png" alt="rmit">
+          <div class="mobile__about-wrap">
+            <img src="./images/company/deliveroo.png" alt="deliveroo">
+            <img src="./images/company/logo-ibm.png" alt="IBM">
+          </div>
+          <div class="mobile__about-wrap">
+            <img src="./images/company/logo-seek.png" alt="seek">
+            <img src="./images/company/logo-xero.png" alt="Xero">
+          </div>
+          <div class="mobile__about-wrap">
+            <img src="./images/company/rea.png" alt="rea">
+            <img src="./images/company/rmit.png" alt="rmit">
+          </div>
         </div>
       </div>
-
       <div class="about__content">
         <div class="about__sec">
           <div class="about__sec-video">
-            <video class="video" data-js-id="speed" title="Using the Workday integration to quickly file an expense report in the Slack app" role="img" loop muted playsinline controls="true">
+            <video class="video vid-left" data-js-id="speed" title="Using the Workday integration to quickly file an expense report in the Slack app" role="img" loop muted playsinline controls="true">
               <source src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/webm/speed.IN.webm" type="video/webm">
               <source src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/mp4/speed.IN.mp4" type="video/mp4">
             </video>
@@ -146,12 +153,10 @@
               <p> ready to go in Slack.</p>
             <a href="#" class="sec__a">Learn more about the Slack platform</a>
           </div>
-          
         </div>
-        
         <div class="about__sec">
           <div class="about__sec-video ">
-            <video class="video" data-js-id="flexibility" title="A user starting a huddle and recording a video clip with the Slack app" role="img" loop muted playsinline controls="true">
+            <video class="video " data-js-id="flexibility" title="A user starting a huddle and recording a video clip with the Slack app" role="img" loop muted playsinline controls="true">
               <source src="https://a.slack-edge.com/ec3a92a/marketing/img/homepage/true-prospects/animations/webm/ia4-flexibility.IN.webm" type="video/webm">
               <source src="https://a.slack-edge.com/ec3a92a/marketing/img/homepage/true-prospects/animations/mp4/ia4-flexibility.IN.mp4" type="video/mp4">
             </video>
@@ -164,12 +169,10 @@
               <p> and video clips, or join a huddle to talk things through live.</p>
             <a href="#" class="sec__a">Learn more about flexible communication</a>
           </div>
-          
         </div>
-        
         <div class="about__sec">
           <div class="about__sec-video">
-            <video class="video" title="A connected team discussing work in multiple channels in the Slack app" 
+            <video class="video vid-left" title="A connected team discussing work in multiple channels in the Slack app" 
             role="img" data-js-id="connectedness" loop="" muted="" playsinline="" controls="true">
             <source src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/webm/connectedness.IN.webm" type="video/webm">
             <source src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/mp4/connectedness.IN.mp4" 
@@ -186,10 +189,9 @@
           </div>
         </div>
       </div>
-      </div>
     </div>
-    
-    
+ 
+
     <div class="sales">
       <div class="sales__batches">
         <img src="./images/batches/Screenshot 2023-09-20 135307.png" 
@@ -298,6 +300,15 @@
           </div>
         </div>
       </div>
+      <div class="work__unit-mobile">
+        <img src="./images/works/wtny-resource-tile.jpg" alt="">
+        <div class="work__text">
+        <p>Event</p>
+        <h5>Ready for the future of</h5>
+        <h5 class="work__ll">AI in Slack?</h5>
+        <a class="work__a" href="#">Watch on-Demand</a>
+        </div>
+      </div>
     </div>  
     <div class="sub">
       <h2 class="sub__head">See all that you can accomplish with Slack</h2>
@@ -311,44 +322,55 @@
       <div class="link__miniscreen">
         <div class="link__">
           <h2>WHY SLACK?</h2>
-          <a class="links__a" href="#">Slack vs email</a>
-          <a class="links__a" href="#">Channels</a>
-          <a class="links__a" href="#">Engagement</a>
-          <a class="links__a" href="#">Scale</a>
-          <a class="links__a" href="#">Watch the demo</a>
+          <div class="links__inner">
+            <a class="links__a" href="#">Slack vs email</a>
+            <a class="links__a" href="#">Channels</a>
+            <a class="links__a" href="#">Engagement</a>
+            <a class="links__a" href="#">Scale</a>
+            <a class="links__a" href="#">Watch the demo</a>
+          </div>
         </div>
         <div class="link__">
           <H2>PRODUCT</H2>
-          <a class="links__a" href="#">Features</a>
-          <a class="links__a" href="#">Intigration</a>
-          <a class="links__a" href="#">Enterprise</a>
-          <a class="links__a" href="#">Solution</a>
+          <div class="links__inner">
+            <a class="links__a" href="#">Features</a>
+            <a class="links__a" href="#">Intigration</a>
+            <a class="links__a" href="#">Enterprise</a>
+            <a class="links__a" href="#">Solution</a>
+          </div>
         </div>
         <div class="link__">
           <H2>PRICING</H2>
-          <a class="links__a" href="#">Subsription</a>
-          <a class="links__a" href="#">Paid vs Free</a>
+          <div class="links__inner">
+            <a class="links__a" href="#">Subsription</a>
+            <a class="links__a" href="#">Paid vs Free</a>
+          </div>
         </div>
         <div class="link__">
           <H2>RESOURCES</H2>
-          <a class="links__a" href="#">Partner</a>
-          <a class="links__a" href="#">Devolopers</a>
-          <a class="links__a" href="#">Community</a>
-          <a class="links__a" href="#">App</a>
-          <a class="links__a" href="#">Blog</a>
-          <a class="links__a" href="#">Help Center</a>
-          <a class="links__a" href="#">Events</a>
+          <div class="links__inner">
+            <a class="links__a" href="#">Partner</a>
+            <a class="links__a" href="#">Devolopers</a>
+            <a class="links__a" href="#">Community</a>
+            <a class="links__a" href="#">App</a>
+            <a class="links__a" href="#">Blog</a>
+            <a class="links__a" href="#">Help Center</a>
+            <a class="links__a" href="#">Events</a>
+          </div>
         </div>
         <div class="link__">
           <H2>COMPANY</H2>
-          <a class="links__a" href="#">About us</a>
-          <a class="links__a" href="#">Leadership</a>
-          <a class="links__a" href="#">News</a>
-          <a class="links__a" href="#">Media kit</a>
-          <a class="links__a" href="#">Careers</a>
-          <a class="links__a" href="#">Slack shop</a>
+          <div class="links__inner">
+            <a class="links__a" href="#">About us</a>
+            <a class="links__a" href="#">Leadership</a>
+            <a class="links__a" href="#">News</a>
+            <a class="links__a" href="#">Media kit</a>
+            <a class="links__a" href="#">Careers</a>
+            <a class="links__a" href="#">Slack shop</a>
+          </div>
         </div>
       </div>
+      
     </div>
       <footer>
         <div class="footer__link">
@@ -368,7 +390,7 @@
         </div>
           <p>©2023 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.</p>
       </footer>
-
+      <script src="./slider.js"></script>
     </div>
     
 
